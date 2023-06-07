@@ -37,4 +37,5 @@ public class Methodcreation01 {
     public static void kare(int a){
         System.out.println("karesi :"+a*a);
     }
+
 }

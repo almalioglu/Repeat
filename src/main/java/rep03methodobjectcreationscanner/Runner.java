@@ -17,5 +17,22 @@ public class Runner {
         myCar.koltuk();
         myCar.far();
 
+        Teacher myTeacher = new Teacher();
+        System.out.println(myTeacher.isim);
+        System.out.println(myTeacher.age);
+        myTeacher.teach();
+
+        Homework kiralikEv= new Homework();
+        System.out.println(kiralikEv.mahalle);
+        System.out.println(kiralikEv.cadde);
+        System.out.println(kiralikEv.sokak);
+        System.out.println(kiralikEv.metreKare);
+        System.out.println(kiralikEv.odaSayisi);
+        kiralikEv.ilan();
+        kiralikEv.adres();
+        kiralikEv.konum();
+        kiralikEv.aciklama();
+
+
     }
 }
