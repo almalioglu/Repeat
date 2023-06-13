@@ -7,8 +7,8 @@ public class TypeCasing {
      */
     //Note 1: Kucuk data typelarini buyuk data typelarina cevirmeyi java otomatik olarak yapar
     //bu isleme "AutoWidening" (otomatik genisletme) denir.
-    //Note 2: Buyuk data typelarini kucuk data typelarina cevirmek riskli bir istir, java bu riskli isi otomatik olarak yapmaz
-    // bu islemi kod yazanlardan bekler.
+    //Note 2: Buyuk data typelarini kucuk data typelarina cevirmek riskli bir istir, 
+    //java bu riskli isi otomatik olarak yapmaz bu islemi kod yazanlardan bekler.
     //Bu isleme "ExplicitNarrowing" (Aciktan Daraltma) denir
     public static void main(String[] args) {
         //byte data type ini int data type ina cevirinz
@@ -40,8 +40,8 @@ public class TypeCasing {
         byte numByte = (byte) num;
         System.out.println(numByte);//4
         //Not
-        //Donusum yaptigimiz sayi(260) donuseceginiz data type inin sinirlari disinda ise java kullandiginiz sayi ile mod islemi yapar ve mod isleminin
-        //sonucu sizin yeni degeriniz olur
+        //Donusum yaptigimiz sayi(260) donuseceginiz data type inin sinirlari disinda ise 
+        //java kullandiginiz sayi ile mod islemi yapar ve mod isleminin sonucu sizin yeni degeriniz olur
        byte a= Byte.MAX_VALUE;
         System.out.println(a);
     }
